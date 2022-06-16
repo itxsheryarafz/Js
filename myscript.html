@@ -1,0 +1,131 @@
+<html>
+<head>
+	<title></title>
+</head>
+
+<button onclick="hello()">Click me</button>
+<body>
+
+<script type="text/javascript">
+
+
+var a=[10,"Sheryar",true];
+var b=[90,30,50];
+
+var c=a.concat(b);
+
+for(var i=0;i<=2;i++)
+{
+document.write("<br>",a[i]);
+}
+
+a.push("Sheryar");
+
+var c=Array.isArray(a);
+
+document.write(c);
+
+
+
+document.write(typeof(b));
+
+
+
+var x={
+
+	"fname":"Sheryar",
+	"lname":"SHSH",
+	"age": 14,
+	"degree":"BSC"
+}
+
+
+console.log(x);
+
+
+//Object Use in Array
+
+var s=[
+
+
+{
+	"name":"SK",
+	"age": 16
+},
+{
+	"name":"KK",
+	"age":15
+}
+];
+
+
+
+console.log(s);
+
+/*For/In Loop*/
+
+for(var key in x)
+{
+	document.write(x[key]);
+}
+
+
+//Array Destructuring/*
+const myprog=['sks','hh','jj','kk'];
+
+let [top1,top2,top3,top4] =myprog;
+
+console.log("My Name is ",top1);
+console.log("My hh name is ",top2);
+console.log("My Uncle name is ",top3);
+
+//Object Destruction
+
+const obj1={
+	name:"Sheryar",
+	age:25,
+	degree:"MCS"
+}
+
+let {name,age,degree}=obj1;
+
+console.log("Name is ",name);
+console.log("Age is ",age);
+console.log("degree is",degree);
+
+
+
+
+//Arrow function
+
+const hello =() =>
+{
+	
+}
+
+//Promise
+let prom=new Promise(functon(resolev,reject)
+{
+
+	if()
+	{
+
+	}
+	else
+	{
+
+	}
+
+});
+
+
+	"use strict";
+	a=10;
+
+
+
+
+
+</script>
+</body>
+</html>
